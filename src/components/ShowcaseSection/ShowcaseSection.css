@@ -1,0 +1,85 @@
+.section-1 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #f0efe9;
+  position: relative;
+  z-index: 0;
+}
+@media (min-width: 1200px) {
+  .section-1 {
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+}
+.section-1 .what-we-provide-section {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  .section-1 .what-we-provide-section {
+    display: flex;
+    text-align: start;
+  }
+}
+@media (min-width: 1200px) {
+  .section-1 .what-we-provide-section .what-we-provide-text-btns {
+    margin-top: 155px;
+  }
+}
+.section-1 .what-we-provide-section .what-we-provide-text-btns .button-section {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 1200px) {
+  .section-1 .what-we-provide-section .what-we-provide-text-btns .button-section {
+    justify-content: start;
+  }
+}
+.section-1 .what-we-provide-section .what-we-provide-text-btns .button-section .button-position {
+  display: block;
+}
+@media (min-width: 800px) {
+  .section-1 .what-we-provide-section .what-we-provide-text-btns .button-section .button-position {
+    display: flex;
+    gap: 10px;
+  }
+}
+.section-1 .what-we-provide-section .picture-of-crito-worker-part {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .section-1 .what-we-provide-section .picture-of-crito-worker-part {
+    display: block;
+    margin-top: 25px;
+    position: relative;
+    right: -25px;
+  }
+}
+.section-1 h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+@media (min-width: 1200px) {
+  .section-1 h1 {
+    font-size: 70px;
+    margin-bottom: 40px;
+  }
+}
+.section-1 p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.section-1 .wavy-lines {
+  display: none;
+}
+@media (min-width: 1400px) {
+  .section-1 .wavy-lines {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+  }
+}

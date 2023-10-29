@@ -1,0 +1,125 @@
+.wrapper-grid .contact-box {
+  padding-left: 10px;
+  padding-right: 40px;
+  border-right: 1px solid #cac6c6;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+.wrapper-grid header {
+  background-color: #f0efe9;
+  padding: 16px;
+}
+.wrapper-grid header .container {
+  display: grid;
+  align-items: center;
+  -moz-column-gap: 70px;
+       column-gap: 70px;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "logo bars";
+}
+@media (min-width: 992px) {
+  .wrapper-grid header .container {
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "logo cib social" "logo menu menu";
+  }
+}
+.wrapper-grid header .container .btn-menubars {
+  grid-area: bars;
+}
+@media (min-width: 992px) {
+  .wrapper-grid header .container .btn-menubars {
+    display: none;
+  }
+}
+.wrapper-grid header .container .logotype {
+  grid-area: logo;
+}
+.wrapper-grid header .container .contactinformation-bar {
+  grid-area: cib;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  padding-bottom: 10px;
+  display: none;
+}
+.wrapper-grid header .container .contactinformation-bar i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+@media (min-width: 992px) {
+  .wrapper-grid header .container .contactinformation-bar {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .wrapper-grid header .container .contactinformation-bar {
+    display: flex;
+  }
+}
+.wrapper-grid header .container .socialmedia-bar {
+  grid-area: social;
+  font-size: 15px;
+  padding-bottom: 10px;
+  display: none;
+}
+.wrapper-grid header .container .socialmedia-bar i {
+  color: #191919;
+  font-size: 20px;
+  margin-left: 8px;
+}
+@media (min-width: 992px) {
+  .wrapper-grid header .container .socialmedia-bar {
+    display: block;
+  }
+}
+.wrapper-grid header .container .menu {
+  grid-area: menu;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #cac6c6;
+  padding-top: 16px;
+}
+.wrapper-grid header .container .menu nav a {
+  display: inline-block;
+  color: #191919;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 30px;
+  text-decoration: none;
+  position: relative;
+}
+.wrapper-grid header .container .menu nav a.active {
+  font-weight: 500px;
+}
+.wrapper-grid header .container .menu nav a.active::after, .wrapper-grid header .container .menu nav a:hover::after {
+  content: "";
+  position: absolute;
+  font-weight: 500;
+  height: 2px;
+  width: 15px;
+  background-color: #191919;
+  left: 50%;
+  bottom: -3px;
+  transform: translate(calc(50% - 15px));
+}
+@media (min-width: 992px) {
+  .wrapper-grid header .container .menu {
+    display: flex;
+  }
+}
+.wrapper-grid header .container .menu .yellow-btn {
+  padding: 10px 25px 10px 25px;
+  background-color: #F9D783;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  margin-right: 0px;
+  color: #191919;
+}
+.wrapper-grid header .container .menu .yellow-btn:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #f0efe9;
+}

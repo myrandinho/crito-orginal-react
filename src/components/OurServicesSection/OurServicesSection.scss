@@ -1,0 +1,169 @@
+.section-5 {
+
+    background-color: #f0efe9;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    position: relative;
+    z-index: 0;
+
+    .our-services {
+
+            .title-align {
+                text-align: center;
+
+                @media (min-width: 1200px) {
+                    text-align: start;
+                }
+
+                h2 {
+
+                    @media (min-width: 1200px) {
+                    font-size: 45px;
+                    }
+                }
+            }
+
+            .service-boxes {
+
+                display: grid;
+                justify-content: center;
+                grid-template-columns: auto auto;
+                grid-template-rows: auto auto;
+                gap: 20px;
+
+                @media (min-width: 768px) {
+
+                    display: flex;
+                }
+
+                p {
+                    display: none;
+
+                    @media (min-width: 1200px) {
+                        display: block;
+                        font-size: 15px;
+                    }
+                }
+
+                .business-subject {
+                    text-align: center;
+                    width: 130px;
+                    height: 130px;
+                    background-color: #ffffff;
+
+                    &:hover {
+                        background-color: #F9D783;
+                    }
+
+                    @media (min-width: 1200px) {
+
+                        height: 330px;
+                        width: 300px;
+                        text-align: start;
+                        padding: 45px 20px 45px 20px;
+                    }
+
+                    h3 {
+                        margin-top: 10px;
+
+                        @media (min-width: 1200px) {
+                            font-size: 22px;
+                        }
+                    }
+
+                    .small-line {
+
+                        display: none;
+
+                        @media (min-width: 1200px) {
+                            display: block;
+                            border-top: 1px solid #191919;
+                            width: 40px;
+                            height: 1px;
+                            background-color: #191919;
+                            margin-bottom: 35px;
+                        }
+                    }
+
+                    .btn-right {
+
+                        display: flex;
+                        justify-content: center;
+
+                        @media (min-width: 1200px) {
+                            justify-content: end;
+                        }
+                    
+
+                        .arrow-button {
+                            display: flex;
+                            border: 1px solid black;
+                            height: 30px;
+                            width: 30px;
+                            border-radius: 50%;
+                            text-decoration: none;
+                            justify-content: center;
+                            align-items: center;
+                            color: #ffffff;
+                            background-color: #191919;
+
+                            &:hover {
+                                background-color: #ffffff;
+                                color: #191919;
+                            }
+
+                            @media (min-width: 1200px) {
+                                height: 55px;
+                                width: 55px;
+
+                                i {
+                                    font-size: 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .browse-btn-center {
+                display: flex;
+                justify-content: center;
+
+                .yellow-button {
+                    background-color: transparent;
+                    border: 1px solid #191919;
+                    height: 35px;
+                    width: 180px;
+                    margin-top: 50px;
+
+                    &:hover {
+                        background-color: black;
+                        color: #ffffff;
+                    }
+
+                    @media (min-width: 1200px) {
+                        height: 55px;
+                        width: 220px;
+                    }
+
+                }
+
+            }
+    }
+
+    img {
+
+        display: none;
+
+        @media (min-width:1300px) {
+            
+            display: flex;
+            position: absolute;
+            z-index: 1;
+            bottom: 0px;
+            right: 0px;
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+    }
+}
