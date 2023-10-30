@@ -1,0 +1,173 @@
+.section-4 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    .aboutcompany-section {
+
+        display: flex;
+        justify-content: center;
+
+        @media (min-width: 1150px) {
+            justify-content: space-between;
+        }
+
+        .about-founder {
+            display: none;
+
+            @media (min-width: 800px) {
+
+                display: block;
+
+                img {
+                    height: 250px;
+                    width: auto;
+                    margin-left: 50px;
+                    margin-right: 100px;
+                    position: relative;
+                    z-index: 0;
+
+                    @media (min-width: 1150px) {
+                        height: auto;
+                        width: auto;
+                    }
+                }
+            }
+
+            .samantha-box {
+
+                display: none;
+
+                    @media (min-width: 1150px) {
+                        display: block;
+                        height: 180px;
+                        width: 380px;
+                        justify-content: center;
+                        text-align: center;
+                        background-color: #BEEBFF;
+                        position: relative;
+                        top: -220px;
+                        right: 60px;
+                    }
+
+                    .samantha-title {
+
+                        display: none;
+
+                        @media (min-width: 1150px) {
+                            display: flex;
+                            justify-content: center;
+                            padding-top: 40px;
+
+                            h3 {
+                                font-size: 20px;
+                                font-family: 'DM Sans', sans-serif;
+                                font-weight: bold;
+                                margin-right: 5px;
+                            }
+
+                            p {
+                                font-family: 'DM Sans', sans-serif;
+                                font-size: 16px;
+                                color: red;
+                                padding-top: 1.2px;
+                                font-weight: bold;
+                            }
+
+                            .p-medium-italic {
+                                font-family: 'Inter', sans-serif;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+            }
+        }
+
+        .about-company-info {
+            padding-left: 20px;
+            padding-right: 20px;
+
+            h2 {
+                text-align: center;
+                font-size: 25px;
+
+                @media (min-width: 1150px) {
+                
+                    text-align: start;
+                    font-size: 45px;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                }
+            }
+
+             .red-text{
+                display: block;
+                text-align: center;
+                padding-bottom: 0px;
+
+                @media (min-width: 1150px) {
+                
+                    text-align: start;
+                }
+            }
+
+            p {
+                display: none;
+
+                @media (min-width: 1150px) {
+                
+                    display: block;
+                    line-height: 25px;
+                    margin-bottom: 50px;
+                }
+            }
+
+            .about-company-btns {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                @media (min-width: 1150px) {
+                
+                    justify-content: start;
+                    
+                }
+
+              
+                .intro-text {
+
+                    display: flex;
+                    font-size: 16px;
+                    font-weight: 400;
+                    margin-top: 5px;
+                }
+                
+             
+
+                .play-btn {
+                    color: #191919;
+                    border: 1px solid #191919;
+                    margin-right: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    height: 35px;
+                    width: 35px;
+                    border-radius: 50%;
+                    margin-left: 30px;
+                    margin-top: -5px;
+
+                    &:hover {
+                        color:#ffffff;
+                        background-color: #191919;
+                    }
+
+                    @media (min-width: 1150px) {
+                        height: 55px;
+                        width: 55px;
+                    }
+                }
+            }
+        }
+    }
+}

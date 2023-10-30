@@ -10,6 +10,7 @@
 
             .title-align {
                 text-align: center;
+                padding-right: 700px;
 
                 @media (min-width: 1200px) {
                     text-align: start;
@@ -19,6 +20,7 @@
 
                     @media (min-width: 1200px) {
                     font-size: 45px;
+                    margin-bottom: 20px;
                     }
                 }
             }
@@ -128,6 +130,9 @@
             .browse-btn-center {
                 display: flex;
                 justify-content: center;
+                margin-top: 50px;
+                position: relative;
+                z-index: 2;
 
                 .yellow-button {
                     background-color: transparent;
@@ -164,6 +169,7 @@
             right: 0px;
             -webkit-transform: scaleX(-1);
             transform: scaleX(-1);
+            z-index: 1;
         }
     }
 }

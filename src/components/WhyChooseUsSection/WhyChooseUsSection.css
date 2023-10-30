@@ -1,0 +1,102 @@
+.section-6 {
+  position: relative;
+  z-index: 0;
+  padding-top: 50px;
+}
+.section-6 .why-choose-us {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  .section-6 .why-choose-us {
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+  }
+}
+@media (min-width: 768px) {
+  .section-6 .why-choose-us .why-choose-us-info {
+    display: grid;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 768px) and (min-width: 1200px) {
+  .section-6 .why-choose-us .why-choose-us-info {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .section-6 .why-choose-us .why-choose-us-info .why-choose-us-titles h2 {
+    font-size: 45px;
+  }
+}
+.section-6 .why-choose-us .why-choose-us-info .logo-and-text {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (min-width: 768px) {
+  .section-6 .why-choose-us .why-choose-us-info .logo-and-text {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+@media (min-width: 1200px) {
+  .section-6 .why-choose-us .why-choose-us-info .logo-and-text {
+    display: flex;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .section-6 .why-choose-us .why-choose-us-info .logo-and-text h3 {
+    font-size: 22px;
+  }
+  .section-6 .why-choose-us .why-choose-us-info .logo-and-text p {
+    line-height: 5px;
+  }
+}
+.section-6 .why-choose-us .why-choose-us-info .logo-and-text .circle-logo {
+  display: block;
+}
+@media (min-width: 1200px) {
+  .section-6 .why-choose-us .why-choose-us-info .logo-and-text .circle-logo {
+    display: flex;
+    border: 1px solid #c4c3be;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+  }
+}
+.section-6 .why-choose-us .picture-on-box {
+  position: relative;
+}
+.section-6 .why-choose-us .picture-on-box img {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .section-6 .why-choose-us .picture-on-box img {
+    display: block;
+    z-index: 2;
+    position: relative;
+    margin-top: 30px;
+  }
+}
+.section-6 .beige-box-position {
+  display: none;
+}
+@media (min-width: 1400px) {
+  .section-6 .beige-box-position {
+    display: flex;
+    justify-content: end;
+  }
+}
+.section-6 .beige-box-position .beige-box {
+  height: 425px;
+  width: 56%;
+  background-color: #f0efe9;
+  position: absolute;
+  top: 260px;
+}

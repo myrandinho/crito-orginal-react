@@ -1,0 +1,152 @@
+.section-3 {
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .grey-border-box {
+        height: auto;
+        width: 80%;
+        border: 1px solid #c4c3be;
+        padding-bottom: 50px;
+    }
+    
+    .features-box {
+        text-align: center;
+        
+        @media (min-width: 985px) {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-areas: "leftbox rightbox";
+            padding-top: 50px;
+        }
+        
+        .left-box {
+
+            display: flex;
+            justify-content: center;
+            padding-left: 20px;
+            padding-right: 20px;
+
+            h2 {
+                @media (min-width: 1200px) {
+                    font-size: 45px;
+                }
+            }
+
+            .center-my-button {
+                display: flex;
+                justify-content: center;
+            }
+           
+            .red-text {
+                padding-bottom: 0px;
+            }
+
+            @media (min-width: 985px) {
+
+                text-align: start;
+                grid-area: "leftbox";
+                margin-right: 50px;
+            }
+
+            @media (min-width: 1200px) {
+
+                .yellow-button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 60px;
+                    width: 380px;
+                    border-radius: 25px;
+                    text-decoration: none;
+                    color: black;
+                    margin-bottom: 10px;
+                    font-weight: 400;
+                    margin-right: 40px;
+                    background-color: #F9D783;
+                    border: 1px solid #F9D783;
+
+                    &:hover {
+                        background-color: black;
+                        color: #ffffff;
+                        border: 1px solid black;
+                    }
+
+                    @media (min-width: 1400px) {
+                        margin-right: 150px;
+                    }
+                }
+            }
+        }
+
+        .right-box {
+
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+            gap: 50px;
+
+            @media (min-width: 985px) {
+                display: grid;
+                grid-area: "rightbox";
+                column-gap: 1px;
+                row-gap: 40px;
+
+                grid-template-columns: auto 1fr;
+                grid-template-rows: auto 1fr;
+                grid-template-areas: "BA SB"
+                                  "FA RM";
+            }
+
+            i {
+                font-size: 25px;
+
+                @media (min-width: 1200px) {
+                    margin-bottom: 30px;
+                }
+            }
+
+            p {
+                display: none;
+
+                @media (min-width: 1030px) {
+                    display: block;
+                    font-size: 16px;  
+                }
+            }
+
+            h3 {
+                display: none;
+
+                @media (min-width: 768px) {
+                display: block;
+                }   
+
+                @media (min-width: 1200px) {
+                    font-size: 22px;
+                }
+            }
+            
+        
+            .business-advice {
+
+                grid-area: "BA";
+            }
+
+            .startup-business {
+
+                grid-area: "SB";
+            }
+
+            .financial-advice {
+
+                grid-area: "FA";
+            }
+
+            .risk-management {
+
+                grid-area: "RM";
+            }
+        }
+    } 
+}       

@@ -1,0 +1,11 @@
+.red-text {
+  color: red;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+}

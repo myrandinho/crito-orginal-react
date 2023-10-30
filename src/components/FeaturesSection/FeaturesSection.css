@@ -1,0 +1,133 @@
+.section-3 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.section-3 .grey-border-box {
+  height: auto;
+  width: 80%;
+  border: 1px solid #c4c3be;
+  padding-bottom: 50px;
+}
+.section-3 .features-box {
+  text-align: center;
+}
+@media (min-width: 985px) {
+  .section-3 .features-box {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "leftbox rightbox";
+    padding-top: 50px;
+  }
+}
+.section-3 .features-box .left-box {
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (min-width: 1200px) {
+  .section-3 .features-box .left-box h2 {
+    font-size: 45px;
+  }
+}
+.section-3 .features-box .left-box .center-my-button {
+  display: flex;
+  justify-content: center;
+}
+.section-3 .features-box .left-box .red-text {
+  padding-bottom: 0px;
+}
+@media (min-width: 985px) {
+  .section-3 .features-box .left-box {
+    text-align: start;
+    grid-area: "leftbox";
+    margin-right: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .section-3 .features-box .left-box .yellow-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 380px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 400;
+    margin-right: 40px;
+    background-color: #F9D783;
+    border: 1px solid #F9D783;
+  }
+  .section-3 .features-box .left-box .yellow-button:hover {
+    background-color: black;
+    color: #ffffff;
+    border: 1px solid black;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1400px) {
+  .section-3 .features-box .left-box .yellow-button {
+    margin-right: 150px;
+  }
+}
+.section-3 .features-box .right-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 50px;
+}
+@media (min-width: 985px) {
+  .section-3 .features-box .right-box {
+    display: grid;
+    grid-area: "rightbox";
+    -moz-column-gap: 1px;
+         column-gap: 1px;
+    row-gap: 40px;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "BA SB" "FA RM";
+  }
+}
+.section-3 .features-box .right-box i {
+  font-size: 25px;
+}
+@media (min-width: 1200px) {
+  .section-3 .features-box .right-box i {
+    margin-bottom: 30px;
+  }
+}
+.section-3 .features-box .right-box p {
+  display: none;
+}
+@media (min-width: 1030px) {
+  .section-3 .features-box .right-box p {
+    display: block;
+    font-size: 16px;
+  }
+}
+.section-3 .features-box .right-box h3 {
+  display: none;
+}
+@media (min-width: 768px) {
+  .section-3 .features-box .right-box h3 {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .section-3 .features-box .right-box h3 {
+    font-size: 22px;
+  }
+}
+.section-3 .features-box .right-box .business-advice {
+  grid-area: "BA";
+}
+.section-3 .features-box .right-box .startup-business {
+  grid-area: "SB";
+}
+.section-3 .features-box .right-box .financial-advice {
+  grid-area: "FA";
+}
+.section-3 .features-box .right-box .risk-management {
+  grid-area: "RM";
+}

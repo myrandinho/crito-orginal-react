@@ -1,0 +1,72 @@
+.business-subject {
+  text-align: center;
+  width: 130px;
+  height: 130px;
+  background-color: #ffffff;
+}
+.business-subject:hover {
+  background-color: #F9D783;
+}
+@media (min-width: 1200px) {
+  .business-subject {
+    height: 330px;
+    width: 300px;
+    text-align: start;
+    padding: 45px 20px 45px 20px;
+  }
+}
+.business-subject h3 {
+  margin-top: 10px;
+}
+@media (min-width: 1200px) {
+  .business-subject h3 {
+    font-size: 22px;
+  }
+}
+.business-subject .small-line {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .business-subject .small-line {
+    display: block;
+    border-top: 1px solid #191919;
+    width: 40px;
+    height: 1px;
+    background-color: #191919;
+    margin-bottom: 35px;
+  }
+}
+.business-subject .btn-right {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 1200px) {
+  .business-subject .btn-right {
+    justify-content: end;
+  }
+}
+.business-subject .btn-right .arrow-button {
+  display: flex;
+  border: 1px solid black;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #191919;
+}
+.business-subject .btn-right .arrow-button:hover {
+  background-color: #ffffff;
+  color: #191919;
+}
+@media (min-width: 1200px) {
+  .business-subject .btn-right .arrow-button {
+    height: 55px;
+    width: 55px;
+  }
+  .business-subject .btn-right .arrow-button i {
+    font-size: 25px;
+  }
+}

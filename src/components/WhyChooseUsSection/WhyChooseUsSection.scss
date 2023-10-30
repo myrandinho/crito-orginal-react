@@ -1,0 +1,119 @@
+.section-6 {
+    position: relative;
+    z-index: 0;
+    padding-top: 50px;
+    
+    .why-choose-us {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+
+        @media (min-width: 1200px) {
+            display: flex;
+            
+            justify-content: space-between;
+            text-align: start;
+        }
+
+        .why-choose-us-info {
+
+            @media (min-width: 768px) {
+
+                display: grid;
+                justify-content: space-around;
+              
+                @media (min-width: 1200px) {
+
+                    display: block; 
+                }  
+            }
+
+            .why-choose-us-titles {
+
+                h2 {
+
+                    @media (min-width: 1200px) {
+                        font-size: 45px;
+                    }
+                }
+            }
+            
+            .logo-and-text {
+                
+                padding-left: 20px;
+                padding-right: 20px;
+
+                @media (min-width: 768px) {
+                    padding-left: 25px;
+                    padding-right: 25px;
+                }
+
+                @media (min-width: 1200px) {
+                    display: flex;
+                    padding-bottom: 25px;
+
+                    padding-left: 0px;
+                    padding-right: 0px;
+
+                    h3 {
+                        font-size: 22px;  
+                    }
+
+                    p {
+                        line-height: 5px;
+                    }
+                }
+
+                .circle-logo {
+                    display: block;
+
+                    @media (min-width:1200px) {
+                        display: flex;
+                        border: 1px solid #c4c3be;
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 50%;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 25px;
+                    }
+                }
+            }
+        }
+        
+        .picture-on-box {
+            position: relative;
+            
+            img {
+                display: none;
+
+                @media (min-width: 1200px) {
+                    display: block;
+                    z-index: 2;
+                    position: relative;
+                    margin-top: 30px;
+                      
+                }
+            }
+        }
+    }
+
+    .beige-box-position {
+
+        display: none;
+
+        @media (min-width: 1400px) {
+            display: flex;
+            justify-content: end;
+        }
+
+        .beige-box {
+
+            height: 425px;
+            width: 56%;
+            background-color: #f0efe9;
+            position: absolute;
+            top: 260px;
+        }
+    }
+}

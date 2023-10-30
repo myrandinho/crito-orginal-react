@@ -7,6 +7,7 @@
 }
 .section-5 .our-services .title-align {
   text-align: center;
+  padding-right: 700px;
 }
 @media (min-width: 1200px) {
   .section-5 .our-services .title-align {
@@ -16,6 +17,7 @@
 @media (min-width: 1200px) {
   .section-5 .our-services .title-align h2 {
     font-size: 45px;
+    margin-bottom: 20px;
   }
 }
 .section-5 .our-services .service-boxes {
@@ -114,6 +116,9 @@
 .section-5 .our-services .browse-btn-center {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
+  position: relative;
+  z-index: 2;
 }
 .section-5 .our-services .browse-btn-center .yellow-button {
   background-color: transparent;
@@ -143,5 +148,6 @@
     bottom: 0px;
     right: 0px;
     transform: scaleX(-1);
+    z-index: 1;
   }
 }
