@@ -1,0 +1,82 @@
+.section-11 {
+  position: relative;
+  z-index: 0;
+  padding-top: 120px;
+  padding-bottom: 105px;
+  background-color: #f0efe9;
+}
+.section-11 .submit-your-mail {
+  text-align: center;
+}
+@media (min-width: 1400px) {
+  .section-11 .submit-your-mail {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1200px) {
+  .section-11 .submit-your-mail h2 {
+    font-size: 45px;
+  }
+}
+.section-11 .submit-your-mail .empty-field-and-subscribe-btn {
+  display: block;
+}
+@media (min-width: 1400px) {
+  .section-11 .submit-your-mail .empty-field-and-subscribe-btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 45px;
+  }
+}
+.section-11 .submit-your-mail .empty-field-and-subscribe-btn .button-position-center {
+  display: flex;
+  justify-content: center;
+}
+.section-11 .submit-your-mail .empty-field-and-subscribe-btn .button-position-center .yellow-button {
+  width: 310px;
+  margin-top: 20px;
+}
+.section-11 .submit-your-mail .empty-field-and-subscribe-btn .button-position-center .yellow-button:hover {
+  background-color: #191919;
+  color: #ffffff;
+  border: 1px solid #191919;
+}
+@media (min-width: 1200px) {
+  .section-11 .submit-your-mail .empty-field-and-subscribe-btn .button-position-center .yellow-button {
+    height: 55px;
+    width: 220px;
+    margin-top: 0px;
+  }
+}
+.section-11 .submit-your-mail .empty-field-and-subscribe-btn .searchbox {
+  display: flex;
+  justify-content: center;
+}
+.section-11 .submit-your-mail .empty-field-and-subscribe-btn .searchbox .insert-your-email {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 310px;
+  height: 35px;
+  border-radius: 25px;
+  border: none;
+}
+@media (min-width: 1200px) {
+  .section-11 .submit-your-mail .empty-field-and-subscribe-btn .searchbox .insert-your-email {
+    height: 55px;
+  }
+}
+.section-11 img {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .section-11 img {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    bottom: 50px;
+    z-index: 1;
+  }
+}

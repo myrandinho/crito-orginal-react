@@ -9,6 +9,10 @@ import FeaturesSection from './components/FeaturesSection/FeaturesSection';
 import AboutCompanySection from './components/AboutCompanySection/AboutCompanySection';
 import ProjectsSection from './components/ProjectsSection/ProjectsSection';
 import MembersSection from './components/MembersSection/MembersSection';
+import ReviewSection from './components/ReviewSection/ReviewSection';
+import ArticleSection from './components/ArticleSection/ArticleSection';
+import RegisterSection from './components/RegisterSection/RegisterSection';
+import FooterSection from './components/FooterSection/FooterSection';
 
 
 function App() {
@@ -23,6 +27,11 @@ function App() {
     <WhyChooseUsSection />
     <ProjectsSection />
     <MembersSection />
+    <ReviewSection />
+    <ArticleSection />
+    <RegisterSection />
+    <FooterSection />
+
   
     </>
   );

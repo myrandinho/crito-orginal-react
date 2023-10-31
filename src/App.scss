@@ -1,3 +1,8 @@
+html, body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
 .red-text {
     color: red;
     font-family: 'Inter', sans-serif;
@@ -28,3 +33,9 @@ h2 {
             }
         }
     }
+
+    h4 {
+        font-family: "DM Sans", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+      }

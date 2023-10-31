@@ -1,0 +1,82 @@
+.section-10 {
+  padding-top: 125px;
+}
+.section-10 .Article-and-news {
+  text-align: center;
+}
+@media (min-width: 1400px) {
+  .section-10 .Article-and-news {
+    text-align: start;
+  }
+}
+.section-10 .Article-and-news .text-h2-and-button .Topic-and-button {
+  display: block;
+}
+@media (min-width: 1200px) {
+  .section-10 .Article-and-news .text-h2-and-button .Topic-and-button h2 {
+    font-size: 45px;
+  }
+}
+@media (min-width: 1400px) {
+  .section-10 .Article-and-news .text-h2-and-button .Topic-and-button {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.section-10 .Article-and-news .text-h2-and-button .Topic-and-button .article-btn-position {
+  display: flex;
+  justify-content: center;
+}
+.section-10 .Article-and-news .text-h2-and-button .Topic-and-button .article-btn-position .yellow-button {
+  background-color: #ffffff;
+  border: 1px solid #191919;
+}
+.section-10 .Article-and-news .text-h2-and-button .Topic-and-button .article-btn-position .yellow-button:hover {
+  background-color: #191919;
+  color: #ffffff;
+}
+@media (min-width: 1200px) {
+  .section-10 .Article-and-news .text-h2-and-button .Topic-and-button .article-btn-position .yellow-button {
+    height: 55px;
+    width: 220px;
+  }
+}
+@media (min-width: 1400px) {
+  .section-10 .Article-and-news .crito-articles {
+    display: flex;
+    gap: 30px;
+  }
+}
+.section-10 .Article-and-news .crito-articles .article-and-info img {
+  height: 120px;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .section-10 .Article-and-news .crito-articles .article-and-info img {
+    height: auto;
+  }
+}
+.section-10 .Article-and-news .crito-articles .article-and-info p {
+  display: none;
+}
+@media (min-width: 1400px) {
+  .section-10 .Article-and-news .crito-articles .article-and-info p {
+    display: block;
+  }
+}
+.section-10 .Article-and-news .crito-articles .article-and-info a {
+  text-decoration: none;
+  color: black;
+}
+.section-10 .Article-and-news .small-circles {
+  display: none;
+}
+@media (min-width: 1400px) {
+  .section-10 .Article-and-news .small-circles {
+    display: flex;
+    margin-top: 65px;
+    margin-bottom: 85px;
+  }
+}

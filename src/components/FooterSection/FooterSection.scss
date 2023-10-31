@@ -1,0 +1,119 @@
+.section-12 {
+    background-color: #0E1021;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    position: relative;
+    z-index: 1;
+
+    .crito-footer {
+
+        .footer-link-section {
+
+            @media (min-width: 1200px) {
+
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 50px;  
+            }
+
+            .crito-logo-and-text {
+
+                display: flex;
+                justify-content: center;
+                width: 23%;
+
+                @media (min-width:1200px) {
+                    display: block;
+
+                    img {
+                        margin-bottom: 35px;
+                    }
+                }
+
+                p {
+                    display: none;
+
+                    @media (min-width:1200px) {
+                        display: block;
+                        line-height: 30px;
+                    }
+                }
+            }
+
+            .topics-and-links {
+
+                display: none;
+
+                @media (min-width:1200px) {
+                    display: block;
+
+                    a {
+                        display: flex;
+                        text-decoration: none;
+                        color: #ffffff;
+                        margin-bottom: 30px;
+                        font-family: 'Inter', sans-serif;
+                    }
+                }
+
+                h3 {
+                    padding-bottom: 50px;
+                    
+                }
+            }
+        }
+
+        .copyright-and-socialmedia {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 20px;
+
+            @media (min-width: 1200px) {
+                display: flex;
+                justify-content: space-between;
+                font-size: 16px;
+            }
+            
+            .socialmedia-bar {
+
+                a {
+                    color: #ffffff;
+                    margin-right: 10px;
+                    margin-left: 10px;
+                }
+
+                i {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+    .background-lines-white {
+        display: none;
+        
+        @media (min-width: 1200px) {
+
+            display: block;
+            position: absolute;
+            bottom: 80px;
+            right: 0px;
+            z-index: 2;
+        }
+    }
+
+    .long-grey-border {
+
+        display: none;
+        
+        @media (min-width: 1200px) {
+            display: block;
+            border-top: 0.5px solid #707070;
+            width: 100%;
+            position: absolute;
+            z-index: 3;
+            bottom: 80px;
+        } 
+    }
+}
