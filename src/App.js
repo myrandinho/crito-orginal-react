@@ -7,6 +7,8 @@ import OurServicesSection from './components/OurServicesSection/OurServicesSecti
 import WhyChooseUsSection from './components/WhyChooseUsSection/WhyChooseUsSection';
 import FeaturesSection from './components/FeaturesSection/FeaturesSection';
 import AboutCompanySection from './components/AboutCompanySection/AboutCompanySection';
+import ProjectsSection from './components/ProjectsSection/ProjectsSection';
+import MembersSection from './components/MembersSection/MembersSection';
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
     <AboutCompanySection />
     <OurServicesSection />
     <WhyChooseUsSection />
+    <ProjectsSection />
+    <MembersSection />
   
     </>
   );

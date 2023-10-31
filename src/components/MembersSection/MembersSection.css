@@ -1,0 +1,110 @@
+.section-8 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #F9D783;
+}
+.section-8 .meet-our-team .team-box {
+  text-align: center;
+}
+@media (min-width: 1400px) {
+  .section-8 .meet-our-team .team-box {
+    text-align: start;
+  }
+}
+.section-8 .meet-our-team .team-box .h2-and-btn {
+  display: block;
+  align-items: center;
+}
+@media (min-width: 1200px) {
+  .section-8 .meet-our-team .team-box .h2-and-btn h2 {
+    font-size: 45px;
+  }
+}
+@media (min-width: 1400px) {
+  .section-8 .meet-our-team .team-box .h2-and-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.section-8 .meet-our-team .team-box .h2-and-btn .btn-placement {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.section-8 .meet-our-team .team-box .h2-and-btn .btn-placement .yellow-button {
+  border: 1px solid #191919;
+  background-color: #f3d68c;
+}
+.section-8 .meet-our-team .team-box .h2-and-btn .btn-placement .yellow-button:hover {
+  background-color: #191919;
+  color: #ffffff;
+}
+@media (min-width: 1200px) {
+  .section-8 .meet-our-team .team-box .h2-and-btn .btn-placement .yellow-button {
+    height: 55px;
+    width: 220px;
+  }
+}
+.section-8 .meet-our-team .team-box .team-members {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 10px;
+}
+@media (min-width: 1400px) {
+  .section-8 .meet-our-team .team-box .team-members {
+    display: flex;
+    gap: 30px;
+  }
+}
+.section-8 .meet-our-team .team-box .team-members .member img {
+  height: 150px;
+  width: auto;
+}
+@media (min-width: 768px) {
+  .section-8 .meet-our-team .team-box .team-members .member img {
+    height: 250px;
+    width: auto;
+  }
+}
+@media (min-width: 1200px) {
+  .section-8 .meet-our-team .team-box .team-members .member img {
+    height: auto;
+    width: auto;
+  }
+}
+@media (min-width: 1400px) {
+  .section-8 .meet-our-team .team-box .team-members .member img {
+    margin-top: 100px;
+  }
+}
+.section-8 .meet-our-team .team-box .team-members .member h3 {
+  font-size: 16px;
+}
+@media (min-width: 1200px) {
+  .section-8 .meet-our-team .team-box .team-members .member h3 {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+}
+.section-8 .meet-our-team .team-box .team-members .member p {
+  display: none;
+}
+@media (min-width: 768px) {
+  .section-8 .meet-our-team .team-box .team-members .member p {
+    display: block;
+  }
+}
+@media (min-width: 1400px) {
+  .section-8 .meet-our-team .team-box .team-members .member p {
+    margin-bottom: 50px;
+  }
+}
+.section-8 .meet-our-team .team-box .small-circles {
+  display: none;
+}
+@media (min-width: 1400px) {
+  .section-8 .meet-our-team .team-box .small-circles {
+    display: flex;
+  }
+}

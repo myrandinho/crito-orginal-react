@@ -1,0 +1,102 @@
+.section-7 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.section-7 .Project-section {
+  display: block;
+  text-align: center;
+}
+.section-7 .Project-section .project-title {
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  .section-7 .Project-section .project-title h2 {
+    font-size: 45px;
+  }
+}
+@media (min-width: 1378px) {
+  .section-7 .Project-section .project-and-case {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    row-gap: 35px;
+    justify-content: center;
+    padding-top: 40px;
+  }
+}
+.section-7 .Project-section .project-and-case article {
+  padding-bottom: 40px;
+}
+.section-7 .Project-section .project-and-case article img {
+  height: 125px;
+  width: auto;
+}
+@media (min-width: 768px) {
+  .section-7 .Project-section .project-and-case article img {
+    height: 250px;
+    width: auto;
+  }
+}
+@media (min-width: 1378px) {
+  .section-7 .Project-section .project-and-case article img {
+    height: auto;
+    width: auto;
+  }
+}
+.section-7 .Project-section .project-and-case article h3 {
+  padding-bottom: 0px;
+}
+@media (min-width: 768px) {
+  .section-7 .Project-section .project-and-case article h3 {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1378px) {
+  .section-7 .Project-section .project-and-case article h3 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c4c3be;
+    text-align: start;
+  }
+}
+.section-7 .Project-section .project-and-case article a {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+.section-7 .Project-section .project-and-case article a i {
+  margin-left: 5px;
+}
+@media (min-width: 1378px) {
+  .section-7 .Project-section .project-and-case article a {
+    display: flex;
+    margin-top: 35px;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    color: #191919;
+  }
+}
+.section-7 .Project-section .projects-button {
+  display: flex;
+  justify-content: center;
+}
+.section-7 .Project-section .projects-button .yellow-button {
+  width: 300px;
+  background-color: #191919;
+  color: #ffffff;
+  border: 1px solid #191919;
+}
+.section-7 .Project-section .projects-button .yellow-button:hover {
+  background-color: #ffffff;
+  color: #191919;
+  border: 1px solid #191919;
+}
+@media (min-width: 1200px) {
+  .section-7 .Project-section .projects-button .yellow-button {
+    height: 55px;
+    width: 220px;
+  }
+}

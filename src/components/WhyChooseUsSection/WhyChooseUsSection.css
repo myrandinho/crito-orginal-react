@@ -90,7 +90,7 @@
 @media (min-width: 1400px) {
   .section-6 .beige-box-position {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
   }
 }
 .section-6 .beige-box-position .beige-box {
