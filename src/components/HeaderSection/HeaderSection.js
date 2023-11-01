@@ -1,5 +1,6 @@
 import React from 'react'
 import './HeaderSection.scss'
+import { Link, NavLink, Navlink } from 'react-router-dom'
 
 const HeaderSection = () => {
   return (
@@ -26,10 +27,10 @@ const HeaderSection = () => {
                 </div>
                 <div className="menu">
                     <nav>
-                        <a className="active" href="home.html" target="_blank">Home</a>
-                        <a href="service.html" target="_blank">Service</a>
-                        <a href="news.html" target="_blank">News</a>
-                        <a href="contact.html" target="_blank">Contact</a>
+                        <Link to="/"className="active">Home</Link>
+                        <Link to="/service">Service</Link>
+                        <Link to="/news">News</Link>
+                        <Link to="/contacts">Contacts</Link>
                     </nav>
                     <div>
                     <a className="yellow-btn" href="login.html">Login <i className="fa-solid fa-arrow-up-right"></i></a>

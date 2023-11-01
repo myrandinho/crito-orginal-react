@@ -1,0 +1,70 @@
+.part-2 {
+    margin-top: 115px;
+    margin-bottom: 80px;
+   
+    .contacts {
+
+        display: flex;
+        justify-content: center;
+        
+        .contacts-positioning {
+            
+            @media (min-width: 1200px) {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            @media (min-width: 1500px) {
+                gap: 30px
+            }
+
+            .contact-box-border {
+
+                display: flex;
+                justify-content: center;
+                border: 1px solid #c4c3be;
+                height: 206px;
+                width: 300px;
+                margin-bottom: 25px;
+
+                @media (min-width: 450px) {
+                    width: 420px;
+                }
+    
+                .invinsable-box {
+    
+                    display: flex;
+                    gap: 25px;
+                    margin-top: 50px;
+    
+                    .round-logo {
+                        height: 60px;
+                        width: 60px;
+                        border-radius: 50%;
+                        background-color: #191919;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        i {
+                            color: white;
+                            font-size: 20px;
+                        }
+                    }
+        
+                    .information-contact {
+                        
+                        h3 {
+                            margin-bottom: 20px;
+                            font-size: 22px;
+                        }
+    
+                        p {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

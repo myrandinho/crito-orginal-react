@@ -30,14 +30,14 @@ const FooterSection = () => {
             <div class="copyright-and-socialmedia">
                 <p><i class="fa-light fa-copyright"></i> 2023 Crito - Consulting Company inc. All rights Reserved.</p>
                 <div class="socialmedia-bar">
-                    <a href="https://facebook.com" target="_blank" ><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
-                    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
-        <img class="background-lines-white" src="images/background-lines-white-right.svg" />
+        <img class="background-lines-white" src="images/background-lines-white-right.svg" alt="lines" />
         <div class="long-grey-border"></div>
     </section>
   )

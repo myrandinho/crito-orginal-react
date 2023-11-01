@@ -1,0 +1,99 @@
+.part-3 {
+    margin-bottom: 100px;
+
+    .leave-message-form {
+        background-color: #f0efe9;
+        padding-bottom: 100px;
+
+        .topic-message {
+            text-align: center;
+            padding-top: 125px;
+
+            h1 {
+
+                font-family: 'DM Sans', sans-serif;
+                font-size: 40px;
+                margin-bottom: 20px;
+                font-weight: bold;
+
+                @media (min-width: 1200px) {
+                    font-size: 70px;
+                }
+            }
+        }
+
+        #registerform {
+            display: flex;
+            justify-content: center;
+
+            @media (min-width: 1200px) {
+                margin-left: 145px;
+                margin-right: 145px;
+            }
+
+            .form-block {
+                width: 100%;
+
+                input {
+                    border: none;
+                }
+            
+                #name {
+
+                    display: block;
+                    margin-top: 25px;
+                    margin-bottom: 15px;
+                    border-radius: 25px;
+                    padding: 12px;
+                    width: 100%;
+                    padding-left: 35px;
+                   
+                    @media (min-width: 1200px) {
+
+                    padding: 17px;
+                    }
+                }
+                    
+                #mail {
+    
+                    display: block;
+                    margin-bottom: 15px;
+                    border-radius: 25px;
+                    padding: 12px;
+                    width: 100%;
+                    padding-left: 35px;
+
+                    @media (min-width: 1200px) {
+
+                        padding: 17px; 
+                    }
+                }
+    
+                #yourMessage {
+    
+                    display: block;
+                    margin-bottom: 40px;
+                    border-radius: 25px;
+                    padding: 12px;
+                    width: 100%;
+                    padding-left: 35px;
+
+                    @media (min-width: 1200px) {
+                        padding: 17px;
+                    }
+                }
+
+                .yellow-button {
+                    width: 100%;
+                    height: 55px;
+
+                    &:hover {
+                        background-color: #191919;
+                        color: #ffffff;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

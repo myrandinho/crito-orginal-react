@@ -3,12 +3,12 @@ import './MyObject.scss'
 
 const MyObject = ({title, photo, description}) => {
   return (
-    <div class="logo-and-text">
-        <div class="circle-logo">
-            <img src={photo} />
+    <div className="logo-and-text">
+        <div className="circle-logo">
+            <img src={photo} alt="a photo" />
         </div>
-        <div class="text-h3-and-p">
-            <h3 class="h3-text">{title}</h3>
+        <div className="text-h3-and-p">
+            <h3 className="h3-text">{title}</h3>
             <p>{description}</p>
         </div>
     </div>
