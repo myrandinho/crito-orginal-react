@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.scss';
 import Home from './components/views/Home'
 import Contacts from './components/views/Contacts'
+import NotFound from './components/views/NotFound';
 
 
 
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/contacts' element={<Contacts />} />
+          <Route path='*' element={<NotFound />} />
 
         </Routes>
       </BrowserRouter>

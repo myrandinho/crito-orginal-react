@@ -1,6 +1,6 @@
 import React from 'react'
 import './HeaderSection.scss'
-import { Link, NavLink, Navlink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const HeaderSection = () => {
   return (
@@ -20,17 +20,17 @@ const HeaderSection = () => {
                     <div className="contact-box"><i className="fa-regular fa-location-dot"></i>Sveavägen 31, 111 34 STOCKHOLM</div>
                 </div>
                 <div className="socialmedia-bar">
-                    <a href="https://facebook.com" target="_blank"><i className="fa-brands fa-facebook"></i></a>
-                    <a href="https://twitter.com" target="_blank"><i className="fa-brands fa-square-twitter"></i></a>
-                    <a href="https://instagram.com" target="_blank"><i className="fa-brands fa-instagram"></i></a>
-                    <a href="https://linkedin.com" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
+                    <a href="https://facebook.com"><i className="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com"><i className="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://instagram.com"><i className="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com"><i className="fa-brands fa-linkedin"></i></a>
                 </div>
                 <div className="menu">
                     <nav>
-                        <Link to="/"className="active">Home</Link>
+                        <NavLink to="/">Home</NavLink>
                         <Link to="/service">Service</Link>
                         <Link to="/news">News</Link>
-                        <Link to="/contacts">Contacts</Link>
+                        <NavLink to="/contacts">Contacts</NavLink>
                     </nav>
                     <div>
                     <a className="yellow-btn" href="login.html">Login <i className="fa-solid fa-arrow-up-right"></i></a>
