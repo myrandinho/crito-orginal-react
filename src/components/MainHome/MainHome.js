@@ -10,6 +10,7 @@ import MembersSection from '../MembersSection/MembersSection'
 import ReviewSection from '../ReviewSection/ReviewSection'
 import ArticleSection from '../ArticleSection/ArticleSection'
 import RegisterSection from '../RegisterSection/RegisterSection'
+import NewArticleSection from '../NewArticleSection/NewArticleSection'
 
 
 
@@ -25,7 +26,7 @@ const MainHome = () => {
         <ProjectsSection />
         <MembersSection />
         <ReviewSection />
-        <ArticleSection />
+        <NewArticleSection />
         <RegisterSection />
 
     </div>

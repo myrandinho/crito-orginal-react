@@ -3,6 +3,11 @@ html, body {
   font-size: 16px;
 }
 
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
 .red-text {
   color: red;
   font-family: "Inter", sans-serif;

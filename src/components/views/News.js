@@ -1,8 +1,15 @@
 import React from 'react'
+import HeaderSection from '../HeaderSection/HeaderSection'
+import FooterSection from '../FooterSection/FooterSection'
+import MainNews from '../MainNews/MainNews'
 
 const News = () => {
   return (
-    <div>News</div>
+    <>
+    <HeaderSection />
+    <MainNews />
+    <FooterSection />
+    </>
   )
 }
 

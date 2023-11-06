@@ -4,6 +4,7 @@ import './App.scss';
 import Home from './components/views/Home'
 import Contacts from './components/views/Contacts'
 import NotFound from './components/views/NotFound';
+import News from './components/views/News';
 
 
 
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/contacts' element={<Contacts />} />
+          <Route path='/news' element={<News />} />
           <Route path='*' element={<NotFound />} />
 
         </Routes>
