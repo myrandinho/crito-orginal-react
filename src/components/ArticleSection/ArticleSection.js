@@ -16,29 +16,29 @@ const ArticleSection = () => {
    
 
   return (
-    <section class="section-10">
-        <div class="Article-and-news container">
-            <div class="text-h2-and-button">
-                <p class="red-text">Article & News</p>
-                <div class="Topic-and-button">
+    <section className="section-10">
+        <div className="Article-and-news container">
+            <div className="text-h2-and-button">
+                <p className="red-text">Article & News</p>
+                <div className="Topic-and-button">
                     <h2>Get Every Single Articles & News</h2>
-                    <div class="article-btn-position">
+                    <div className="article-btn-position">
                         <Button type="yellow" url="index.html" title="Browse Articles" />
                     </div> 
                 </div>
             </div>
-            <div class="crito-articles">
+            <div className="crito-articles">
             {   ArticleList.map(( myItem, index ) => (
                         <ArticleBox key={index} url={myItem.url} title={myItem.title} alt={myItem.alt} photo={myItem.photo} topic={myItem.topic} text={myItem.text} />
                 ))
                 }     
             </div>
-            <div class="small-circles">
-                <a class="small-circle" href="#"></a>
-                <a class="small-circle" href="#"></a>
-                <a class="small-circle" href="#"></a>
-                <a class="small-circle" href="#"></a>
-                <a class="small-circle" href="#"></a>
+            <div className="small-circles">
+                <a className="small-circle" href="#"></a>
+                <a className="small-circle" href="#"></a>
+                <a className="small-circle" href="#"></a>
+                <a className="small-circle" href="#"></a>
+                <a className="small-circle" href="#"></a>
             </div>
         </div>
     </section>
