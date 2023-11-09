@@ -1,0 +1,104 @@
+.part-3 {
+  margin-bottom: 100px;
+  position: relative;
+  z-index: 1;
+}
+.part-3 .error {
+  color: red;
+  font-size: 16px;
+  line-height: 5px;
+}
+.part-3 .leave-message-form {
+  background-color: #f0efe9;
+  padding-bottom: 100px;
+}
+.part-3 .leave-message-form .topic-message {
+  text-align: center;
+  padding-top: 125px;
+}
+.part-3 .leave-message-form .topic-message h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+@media (min-width: 1200px) {
+  .part-3 .leave-message-form .topic-message h1 {
+    font-size: 70px;
+  }
+}
+.part-3 .leave-message-form #registerform {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 1200px) {
+  .part-3 .leave-message-form #registerform {
+    margin-left: 145px;
+    margin-right: 145px;
+  }
+}
+.part-3 .leave-message-form #registerform .form-block {
+  width: 100%;
+}
+.part-3 .leave-message-form #registerform .form-block input {
+  border: none;
+}
+.part-3 .leave-message-form #registerform .form-block #myNamestyle {
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  padding: 12px;
+  width: 100%;
+  padding-left: 35px;
+}
+@media (min-width: 1200px) {
+  .part-3 .leave-message-form #registerform .form-block #myNamestyle {
+    padding: 17px;
+  }
+}
+.part-3 .leave-message-form #registerform .form-block #email {
+  display: block;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  padding: 12px;
+  width: 100%;
+  padding-left: 35px;
+}
+@media (min-width: 1200px) {
+  .part-3 .leave-message-form #registerform .form-block #email {
+    padding: 17px;
+  }
+}
+.part-3 .leave-message-form #registerform .form-block #yourMessage {
+  display: block;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  padding: 12px;
+  width: 100%;
+  padding-left: 35px;
+}
+@media (min-width: 1200px) {
+  .part-3 .leave-message-form #registerform .form-block #yourMessage {
+    padding: 17px;
+  }
+}
+.part-3 .leave-message-form #registerform .form-block .yellow-button {
+  width: 100%;
+  height: 55px;
+  background-color: yellow;
+  border-radius: 20px;
+}
+.part-3 .leave-message-form #registerform .form-block .yellow-button:hover {
+  background-color: #191919;
+  color: #ffffff;
+  cursor: pointer;
+}
+.part-3 .leave-message-form #registerform .error-message {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  position: absolute;
+  bottom: 20px;
+}
