@@ -1,0 +1,100 @@
+.News-details .container {
+  display: flex;
+}
+.News-details .container .left-side {
+  width: 770px;
+}
+.News-details .container .left-side .full-article h2 {
+  font-size: 45px;
+}
+.News-details .container .left-side .full-article .date-subject-author {
+  display: flex;
+  justify-content: space-between;
+}
+.News-details .container .left-side .full-article .date-subject-author .small-yellow-circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #F9D783;
+}
+.News-details .container .left-side .full-article .date-subject-author .article-date p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+}
+.News-details .container .left-side .full-article .date-subject-author .article-category p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+}
+.News-details .container .left-side .full-article .date-subject-author .article-author p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+}
+.News-details .container .left-side .full-article img {
+  width: 768px;
+  height: 500px;
+}
+.News-details .container .left-side .full-article p {
+  line-height: 20px;
+}
+.News-details .container .left-side .full-article .the-qoute {
+  display: flex;
+}
+.News-details .container .left-side .full-article .the-qoute img {
+  width: 28px;
+  height: 20px;
+}
+.News-details .container .left-side .full-article .the-qoute h3 {
+  font-size: 22px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.News-details .container .left-side .article-tags .large-tag {
+  width: 114px;
+  height: 40px;
+  background-color: rgb(143, 143, 143);
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #191919;
+}
+.News-details .container .left-side .article-tags .medium-tag {
+  width: 99px;
+  height: 40px;
+  background-color: rgb(143, 143, 143);
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #191919;
+}
+.News-details .container .left-side .article-tags .small-tag {
+  width: 83px;
+  height: 40px;
+  background-color: rgb(143, 143, 143);
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #191919;
+}
+.News-details .container .side-section .news-search-box {
+  background-color: grey;
+}
+.News-details .container .side-section .recent-posts h3 {
+  font-size: 22px;
+  font-family: "DM Sans", sans-serif;
+}
+.News-details .container .side-section .recent-posts .recent-post-and-date h4 {
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+}
+.News-details .container .side-section .recent-posts .recent-post-and-date p {
+  font-size: 14px;
+}
+.News-details .container .side-section .category .category-flex h4 {
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+}

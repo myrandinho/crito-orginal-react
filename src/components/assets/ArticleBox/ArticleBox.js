@@ -1,14 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const ArticleBox = ({photo, alt, topic, title, text, url}) => {
+
+const ArticleBox = ({photo, alt, topic, title, text, id}) => {
   return (
     <article class="article-and-info">
-        <a href={url}>
+        <Link id={id} to={`/testar/${id}`}>
             <img src={photo} alt={alt} />
             <p>{topic}</p>
             <h4>{title}</h4>
             <p>{text}</p>
-        </a>
+        </Link>
     </article>
   )
 }

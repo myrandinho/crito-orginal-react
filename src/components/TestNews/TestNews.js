@@ -2,11 +2,11 @@
 
 import ArticleBox from '../assets/ArticleBox/ArticleBox'
 import React, {useEffect, useState} from 'react'
-import './NewsAllArticelsSection.scss'
+import './TestNews.scss'
 import { Link } from 'react-router-dom'
 
 
-const NewsAllArticelsSection = () => {
+const TestNews = () => {
 
     const [article, setArticles] = useState([])
 
@@ -30,7 +30,7 @@ const NewsAllArticelsSection = () => {
             
             {   
               article.map(( myItem, index ) => (
-                <ArticleBox key={index} url={myItem.url} title={myItem.title} alt={myItem.alt} photo={myItem.imageUrl} topic={myItem.category} text={myItem.content} />
+                <ArticleBox id={myItem.id} key={index} url={myItem.url} title={myItem.title} alt={myItem.alt} photo={myItem.imageUrl} topic={myItem.category} text={myItem.content} />
               ))
             }     
         </div>
@@ -47,4 +47,4 @@ const NewsAllArticelsSection = () => {
   )
 }
 
-export default NewsAllArticelsSection
+export default TestNews
