@@ -14,10 +14,10 @@ const FooterSection = () => {
     ]
 
   return (
-    <section class="section-12">
-        <div class="crito-footer container">
-            <nav class="footer-link-section">
-                <div class="crito-logo-and-text">
+    <section className="section-12">
+        <div className="crito-footer container">
+            <nav className="footer-link-section">
+                <div className="crito-logo-and-text">
                     <img src="images/crito-logo-white.svg" alt="Crito logotype" />
                     <p>Lorem ipsum dolor sit amet coonsectetur adipisicing elit. Placeat obcaecati voluptas voluptates! Voluptates laborum nam ratione minus necessitatibus, iure praesentium.</p>
                 </div>
@@ -27,18 +27,18 @@ const FooterSection = () => {
                 ))
                 }    
             </nav>
-            <div class="copyright-and-socialmedia">
-                <p><i class="fa-light fa-copyright"></i> 2023 Crito - Consulting Company inc. All rights Reserved.</p>
-                <div class="socialmedia-bar">
-                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
-                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+            <div className="copyright-and-socialmedia">
+                <p><i className="fa-light fa-copyright"></i> 2023 Crito - Consulting Company inc. All rights Reserved.</p>
+                <div className="socialmedia-bar">
+                    <a href="https://facebook.com"><i className="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com"><i className="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://instagram.com"><i className="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com"><i className="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
-        <img class="background-lines-white" src="images/background-lines-white-right.svg" alt="lines" />
-        <div class="long-grey-border"></div>
+        <img className="background-lines-white" src="images/background-lines-white-right.svg" alt="lines" />
+        <div className="long-grey-border"></div>
     </section>
   )
 }

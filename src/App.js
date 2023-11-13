@@ -5,8 +5,7 @@ import Home from './components/views/Home';
 import Contacts from './components/views/Contacts';
 import NotFound from './components/views/NotFound';
 import News from './components/views/News';
-import TestNews from './components/TestNews/TestNews';
-import DetailedArticle from './components/DetailedArticle/DetailedArticle';
+import NewsDetails from './components/views/NewsDetails';
 
 
 
@@ -19,8 +18,8 @@ function App() {
           <Route path='/contacts' element={<Contacts />} />
           <Route path='/news' element={<News />} />
           <Route path='*' element={<NotFound />} />
-          <Route path="/testar/:id" element={<DetailedArticle />} />
-          <Route path='/testar' element={<TestNews />} />
+          <Route path="/news/:id" element={<NewsDetails />} />
+          
 
         </Routes>
       </BrowserRouter>

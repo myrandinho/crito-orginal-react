@@ -3,12 +3,12 @@ import './NewsTitleSection.scss'
 
 const NewsTitleSection = () => {
   return (
-    <section class="part-1">
-    <div class="lets-connect container-fluid">
-        <div class="lets-connect-box">
-            <div class="p-topics">
+    <section className="part-1">
+    <div className="lets-connect container-fluid">
+        <div className="lets-connect-box">
+            <div className="p-topics">
                 <p>Home</p>
-                <p class="medium-p">News</p>
+                <p className="medium-p">News</p>
             </div>
             <h1>News & Articles</h1>
         </div>

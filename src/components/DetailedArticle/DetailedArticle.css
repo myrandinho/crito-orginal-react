@@ -1,100 +1,191 @@
-.News-details .container {
+.news-details .small-underline {
+  display: none;
+}
+.news-details .container {
   display: flex;
+  margin-top: 115px;
 }
-.News-details .container .left-side {
-  width: 770px;
+.news-details .container .left-side {
+  width: 768px;
+  margin-right: 130px;
 }
-.News-details .container .left-side .full-article h2 {
+.news-details .container .left-side .full-article {
+  margin-bottom: 40px;
+}
+.news-details .container .left-side .full-article h2 {
   font-size: 45px;
 }
-.News-details .container .left-side .full-article .date-subject-author {
+.news-details .container .left-side .full-article .date-subject-author {
   display: flex;
-  justify-content: space-between;
+  gap: 34px;
+  margin-top: 35px;
+  margin-bottom: 50px;
 }
-.News-details .container .left-side .full-article .date-subject-author .small-yellow-circle {
+.news-details .container .left-side .full-article .date-subject-author .small-yellow-circle {
   height: 10px;
   width: 10px;
   border-radius: 50%;
   background-color: #F9D783;
 }
-.News-details .container .left-side .full-article .date-subject-author .article-date p {
+.news-details .container .left-side .full-article .date-subject-author .article-date p {
   font-family: "DM Sans", sans-serif;
   font-size: 20px;
 }
-.News-details .container .left-side .full-article .date-subject-author .article-category p {
+.news-details .container .left-side .full-article .date-subject-author .article-category p {
   font-family: "DM Sans", sans-serif;
   font-size: 20px;
 }
-.News-details .container .left-side .full-article .date-subject-author .article-author p {
+.news-details .container .left-side .full-article .date-subject-author .article-author p {
   font-family: "DM Sans", sans-serif;
   font-size: 20px;
 }
-.News-details .container .left-side .full-article img {
-  width: 768px;
-  height: 500px;
+.news-details .container .left-side .full-article img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
 }
-.News-details .container .left-side .full-article p {
-  line-height: 20px;
+.news-details .container .left-side .full-article p {
+  line-height: 27px;
 }
-.News-details .container .left-side .full-article .the-qoute {
+.news-details .container .left-side .full-article .the-qoute {
   display: flex;
+  margin-top: 90px;
+  margin-bottom: 80px;
+  gap: 10px;
 }
-.News-details .container .left-side .full-article .the-qoute img {
+.news-details .container .left-side .full-article .the-qoute img {
   width: 28px;
   height: 20px;
 }
-.News-details .container .left-side .full-article .the-qoute h3 {
+.news-details .container .left-side .full-article .the-qoute h3 {
   font-size: 22px;
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
   font-style: italic;
 }
-.News-details .container .left-side .article-tags .large-tag {
+.news-details .container .left-side .article-tags {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 60px;
+}
+.news-details .container .left-side .article-tags .large-tag {
   width: 114px;
   height: 40px;
-  background-color: rgb(143, 143, 143);
-  border-radius: 20%;
+  background-color: rgb(233, 232, 232);
+  border-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #191919;
 }
-.News-details .container .left-side .article-tags .medium-tag {
+.news-details .container .left-side .article-tags .medium-tag {
   width: 99px;
   height: 40px;
-  background-color: rgb(143, 143, 143);
-  border-radius: 20%;
+  background-color: rgb(233, 232, 232);
+  border-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #191919;
 }
-.News-details .container .left-side .article-tags .small-tag {
+.news-details .container .left-side .article-tags .small-tag {
   width: 83px;
   height: 40px;
-  background-color: rgb(143, 143, 143);
-  border-radius: 20%;
+  background-color: rgb(233, 232, 232);
+  border-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #191919;
 }
-.News-details .container .side-section .news-search-box {
-  background-color: grey;
+.news-details .container .side-section {
+  margin-top: 240px;
 }
-.News-details .container .side-section .recent-posts h3 {
-  font-size: 22px;
-  font-family: "DM Sans", sans-serif;
+.news-details .container .side-section .news-search-box {
+  background-color: rgb(233, 232, 232);
+  width: 420px;
+  height: 56px;
+  border: none;
+  border-radius: 25px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 40px;
 }
-.News-details .container .side-section .recent-posts .recent-post-and-date h4 {
-  font-size: 16px;
-  font-family: "DM Sans", sans-serif;
-}
-.News-details .container .side-section .recent-posts .recent-post-and-date p {
+.news-details .container .side-section .news-search-box .myinput {
+  background-color: rgb(233, 232, 232);
+  border: none;
+  outline: none;
   font-size: 14px;
 }
-.News-details .container .side-section .category .category-flex h4 {
+.news-details .container .side-section .news-search-box i {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.news-details .container .side-section .recent-posts {
+  border: 1px solid rgb(233, 232, 232);
+  padding-top: 50px;
+  padding-left: 40px;
+}
+.news-details .container .side-section .recent-posts h3 {
+  font-size: 22px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+}
+.news-details .container .side-section .recent-posts .recent-post-and-date {
+  margin-right: 40px;
+  border-bottom: 1px solid rgb(233, 232, 232);
+}
+.news-details .container .side-section .recent-posts .recent-post-and-date h4 {
   font-size: 16px;
   font-family: "DM Sans", sans-serif;
   font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-right: 100px;
+}
+.news-details .container .side-section .recent-posts .recent-post-and-date p {
+  font-size: 14px;
+}
+.news-details .container .side-section .recent-posts .recent-post-and-date-no-border {
+  margin-bottom: 40px;
+}
+.news-details .container .side-section .recent-posts .recent-post-and-date-no-border h4 {
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-right: 100px;
+}
+.news-details .container .side-section .recent-posts .recent-post-and-date-no-border p {
+  font-size: 14px;
+}
+.news-details .container .side-section .category {
+  margin-top: 40px;
+  border: 1px solid rgb(233, 232, 232);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+}
+.news-details .container .side-section .category h3 {
+  font-size: 22px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+}
+.news-details .container .side-section .category .category-flex {
+  display: flex;
+}
+.news-details .container .side-section .category .category-flex h4 {
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+}
+.news-details .container .side-section .category .category-flex .grey-h4 {
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  color: grey;
+  margin-left: 10px;
 }

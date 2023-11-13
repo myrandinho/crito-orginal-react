@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
+import './DetailedArticle.scss'
+
 const DetailedArticle = () => {
 
     const [article, setArticle] = useState({})
@@ -21,7 +23,7 @@ const DetailedArticle = () => {
 
 
   return (
-    <section className="News-details">
+    <section className="news-details">
         <div className="container">
             <div className="left-side">
                 <div className="full-article">
@@ -68,7 +70,11 @@ const DetailedArticle = () => {
                 </div>
             </div>
             <div className="side-section">
-                <input className="news-search-box" placeholder="Type to search..." />
+                <form className="news-search-box">
+                    <i className="fa-sharp fa-regular fa-magnifying-glass"></i>
+                    <input className="myinput" placeholder="Type to search..." />
+                </form>
+                
                 <div className="recent-posts">
                     <h3>Recent Posts</h3>
                     <div className="small-underline"></div>
@@ -93,28 +99,28 @@ const DetailedArticle = () => {
                     <h3>Categories</h3>
                     <div className="small-underline"></div>
                     <div className="category-flex">
-                        <h4>Technology - </h4>
-                        <h4 className="grey-h4">20 Posts</h4>
+                        <h4>Technology  - </h4>
+                        <h4 className="grey-h4"> 20 Posts</h4>
                     </div>
                     <div className="category-flex">
-                        <h4>Freelancing - </h4>
-                        <h4 className="grey-h4">7 Posts</h4>
+                        <h4>Freelancing  - </h4>
+                        <h4 className="grey-h4"> 7 Posts</h4>
                     </div>
                     <div className="category-flex">
-                        <h4>Writing - </h4>
-                        <h4 className="grey-h4">16 Posts</h4>
+                        <h4>Writing  - </h4>
+                        <h4 className="grey-h4"> 16 Posts</h4>
                     </div>
                     <div className="category-flex">
-                        <h4>Marketing - </h4>
-                        <h4 className="grey-h4">11 Posts</h4>
+                        <h4>Marketing   - </h4>
+                        <h4 className="grey-h4"> 11 Posts</h4>
                     </div>
                     <div className="category-flex">
-                        <h4>Business - </h4>
-                        <h4 className="grey-h4">35 Posts</h4>
+                        <h4>Business  - </h4>
+                        <h4 className="grey-h4"> 35 Posts</h4>
                     </div>
                     <div className="category-flex">
-                        <h4>Education - </h4>
-                        <h4 className="grey-h4">14 Posts</h4>
+                        <h4>Education  - </h4>
+                        <h4 className="grey-h4"> 14 Posts</h4>
                     </div>
                 </div>
             </div>

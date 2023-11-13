@@ -1,0 +1,40 @@
+.part-1 {
+  background-color: #f0efe9;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+.part-1 .lets-connect {
+  display: flex;
+  justify-content: center;
+}
+.part-1 .lets-connect .lets-connect-box {
+  text-align: center;
+}
+.part-1 .lets-connect .lets-connect-box .p-topics {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.part-1 .lets-connect .lets-connect-box .p-topics p {
+  font-weight: 300;
+}
+.part-1 .lets-connect .lets-connect-box .p-topics .medium-p {
+  font-weight: 500;
+}
+.part-1 .lets-connect .lets-connect-box h1 {
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+  font-size: 40px;
+}
+@media (min-width: 1200px) {
+  .part-1 .lets-connect .lets-connect-box h1 {
+    font-size: 70px;
+  }
+}
+.part-1 img {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}

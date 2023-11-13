@@ -86,8 +86,12 @@
 .part-3 .leave-message-form #registerform .form-block .yellow-button {
   width: 100%;
   height: 55px;
-  background-color: yellow;
+  background-color: #F9D783;
+  border: none;
   border-radius: 20px;
+}
+.part-3 .leave-message-form #registerform .form-block .yellow-button i {
+  margin-left: 5px;
 }
 .part-3 .leave-message-form #registerform .form-block .yellow-button:hover {
   background-color: #191919;

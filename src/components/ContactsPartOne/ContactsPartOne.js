@@ -3,12 +3,12 @@ import './ContactsPartOne.scss'
 
 const ContactsPartOne = () => {
   return (
-    <section class="part-1">
-        <div class="lets-connect container-fluid">
-            <div class="lets-connect-box">
-                <div class="p-topics">
+    <section className="part-1">
+        <div className="lets-connect container-fluid">
+            <div className="lets-connect-box">
+                <div className="p-topics">
                     <p>Home</p>
-                    <p class="medium-p">Contact</p>
+                    <p className="medium-p">Contact</p>
                 </div>
                 <h1>Let's Connect</h1>
             </div>
