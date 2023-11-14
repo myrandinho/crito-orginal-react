@@ -30,7 +30,7 @@ const DetailedArticle = () => {
                     <h2>{article.title}</h2>
                     <div className="date-subject-author">
                         <div className="article-date">
-                            <p>{article.published}</p>
+                        <p>{article.published && article.published.slice(0, -9)}</p>
                         </div>
                         <div className="small-yellow-circle"></div>
                         <div className="article-category">

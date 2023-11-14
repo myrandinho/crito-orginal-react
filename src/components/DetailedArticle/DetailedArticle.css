@@ -19,7 +19,7 @@
   display: flex;
   gap: 34px;
   margin-top: 35px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 .news-details .container .left-side .full-article .date-subject-author .small-yellow-circle {
   height: 10px;

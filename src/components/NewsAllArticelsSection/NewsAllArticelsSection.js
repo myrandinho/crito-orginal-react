@@ -1,25 +1,16 @@
 
 
 import ArticleBox from '../assets/ArticleBox/ArticleBox'
-import React, {useEffect, useState} from 'react'
+import React from 'react'
 import './NewsAllArticelsSection.scss'
 import { Link } from 'react-router-dom'
+import { useArticles } from '../contexts/ArticleContext'
 
 
 const NewsAllArticelsSection = () => {
 
-    const [article, setArticles] = useState([])
-
-    useEffect(() => {
-      getArticles()
-    }, [])
-  
-    const getArticles = async () => {
-      const result = await fetch('https://win23-assignment.azurewebsites.net/api/articles?take=9')
-  
-      if (result.status === 200)
-          setArticles(await result.json())
-    }
+  const { articles } = useArticles();
+ 
    
 
   return (
@@ -29,7 +20,7 @@ const NewsAllArticelsSection = () => {
         <div className="crito-articles">
             
             {   
-              article.map(( myItem, index ) => (
+              articles.map(( myItem, index ) => (
                 <ArticleBox key={index} id={myItem.id} url={myItem.url} title={myItem.title} alt={myItem.alt} photo={myItem.imageUrl} topic={myItem.category} text={myItem.content} />
               ))
             }     
