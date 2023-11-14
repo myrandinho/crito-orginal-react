@@ -121,13 +121,37 @@
 }
 .section-3 .features-box .right-box .business-advice {
   grid-area: "BA";
+  height: 220px;
+  width: 307px;
+}
+.section-3 .features-box .right-box .business-advice p {
+  padding-right: 25px;
+  padding-left: 25px;
 }
 .section-3 .features-box .right-box .startup-business {
   grid-area: "SB";
+  height: 220px;
+  width: 307px;
+}
+.section-3 .features-box .right-box .startup-business p {
+  padding-right: 25px;
+  padding-left: 25px;
 }
 .section-3 .features-box .right-box .financial-advice {
   grid-area: "FA";
+  height: 220px;
+  width: 307px;
+}
+.section-3 .features-box .right-box .financial-advice p {
+  padding-right: 25px;
+  padding-left: 25px;
 }
 .section-3 .features-box .right-box .risk-management {
   grid-area: "RM";
+  height: 220px;
+  width: 307px;
+}
+.section-3 .features-box .right-box .risk-management p {
+  padding-right: 25px;
+  padding-left: 25px;
 }

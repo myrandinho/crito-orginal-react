@@ -10,6 +10,8 @@ const Button = ({type, url, title}) => {
                 return 'btn-yellow'
             case 'dark':
                 return 'dark-btn'
+            case 'white':
+                return 'white-btn'
             default:
                 return 'btn-transparent'
         }

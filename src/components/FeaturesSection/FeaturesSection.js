@@ -1,6 +1,7 @@
 import React from 'react'
 import './FeaturesSection.scss'
 import MyTopic from '../generics/MyTopic/MyTopic'
+import FeaturesBox from '../assets/FeaturesBox/FeaturesBox'
 
 const FeaturesSection = () => {
   return (
@@ -17,24 +18,16 @@ const FeaturesSection = () => {
             </div>
             <div class="right-box">
                 <div class="business-advice">
-                    <i class="fa-regular fa-handshake"></i>
-                    <h3 class="h3-text">Business Advice</h3>
-                    <p>Lorem ipsum, dolor sit amet <br></br> consectetur adipsicing elit.</p>
+                    <FeaturesBox iconClass="fa-regular fa-handshake" topic="Business Advice" text="Lorem ipsum, dolor sit amet consectetur adipsicing elit." />
                 </div>
                 <div class="startup-business">
-                    <i class="fa-regular fa-lightbulb-on"></i>
-                    <h3 class="h3-text">Startup Business</h3>
-                    <p>Lorem ipsum, dolor sit amet <br></br>consectetur adipisicing elit.</p>
+                    <FeaturesBox iconClass="fa-regular fa-lightbulb-on" topic="Startup Business" text="Lorem ipsum, dolor sit amet consectetur adipsicing elit." />
                 </div>
                 <div class="financial-advice">
-                    <i class="fa-regular fa-chart-mixed-up-circle-dollar"></i>
-                    <h3 class="h3-text">Financial Advice</h3>
-                    <p>Lorem ipsum, dolor sit amet <br></br>consectetur adipisicing elit.</p>
+                    <FeaturesBox iconClass="fa-regular fa-chart-mixed-up-circle-dollar" topic="Financial Advice" text="Lorem ipsum, dolor sit amet consectetur adipsicing elit." />
                 </div>
                 <div class="risk-management">
-                    <i class="fa-sharp fa-regular fa-box-circle-check"></i>
-                    <h3 class="h3-text">Risk Management</h3>
-                    <p>Lorem ipsum, dolor sit amet <br></br>consectetur adipisicing elit.</p>
+                    <FeaturesBox iconClass="fa-sharp fa-regular fa-box-circle-check" topic="Risk Management" text="Lorem ipsum, dolor sit amet consectetur adipsicing elit." />
                 </div>
             </div>
         </div>

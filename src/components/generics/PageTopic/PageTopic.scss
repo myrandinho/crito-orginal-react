@@ -1,0 +1,28 @@
+.lets-connect-box {
+
+    text-align: center;
+
+.p-topics {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    p {
+        font-weight: 300;
+    }
+    
+    .medium-p {
+        font-weight: bold;
+    }
+}
+
+h1 {
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+
+    @media (min-width: 1200px) {
+        font-size: 70px;
+    }
+}
+}

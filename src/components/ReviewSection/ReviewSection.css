@@ -48,6 +48,7 @@
 .section-9 .client-reviews .flexed-boxes .review-box .image-name-reviewer .name-and-role h3 {
   padding-top: 12px;
   padding-bottom: 14px;
+  font-weight: bold;
 }
 .section-9 .client-reviews .flexed-boxes .review-box .image-name-reviewer .name-and-role .red-text {
   font-size: 16px;

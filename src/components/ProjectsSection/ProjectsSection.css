@@ -51,6 +51,7 @@
 @media (min-width: 768px) {
   .section-7 .Project-section .project-and-case article h3 {
     font-size: 22px;
+    font-weight: bold;
   }
 }
 @media (min-width: 1378px) {

@@ -131,21 +131,49 @@
             .business-advice {
 
                 grid-area: "BA";
+                height: 220px;
+                width: 307px;
+
+                p {
+                    padding-right: 25px;
+                    padding-left: 25px;
+                }
             }
 
             .startup-business {
 
                 grid-area: "SB";
+                height: 220px;
+                width: 307px;
+
+                p {
+                    padding-right: 25px;
+                    padding-left: 25px;
+                }
             }
 
             .financial-advice {
 
                 grid-area: "FA";
+                height: 220px;
+                width: 307px;
+
+                p {
+                    padding-right: 25px;
+                    padding-left: 25px;
+                }
             }
 
             .risk-management {
 
                 grid-area: "RM";
+                height: 220px;
+                width: 307px;
+
+                p {
+                    padding-right: 25px;
+                    padding-left: 25px;
+                }
             }
         }
     } 

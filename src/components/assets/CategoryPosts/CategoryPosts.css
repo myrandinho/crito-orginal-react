@@ -1,0 +1,15 @@
+.category-flex {
+  display: flex;
+}
+.category-flex h4 {
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+}
+.category-flex .grey-h4 {
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  color: grey;
+  margin-left: 10px;
+}

@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import './DetailedArticle.scss'
+import OldPost from '../assets/OldPost/OldPost';
+import CategoryPosts from '../assets/CategoryPosts/CategoryPosts';
 
 const DetailedArticle = () => {
 
@@ -78,18 +80,9 @@ const DetailedArticle = () => {
                 <div className="recent-posts">
                     <h3>Recent Posts</h3>
                     <div className="small-underline"></div>
-                    <div className="recent-post-and-date">
-                        <h4>How To Blow Through Capital At An Incredible Rate</h4>
-                        <p>Jan 14, 2020</p>
-                    </div>
-                    <div className="recent-post-and-date">
-                        <h4>Design Studios That Everyone Should Know About? </h4>
-                        <p>Jan 14, 2020</p>
-                    </div>
-                    <div className="recent-post-and-date">
-                        <h4>How did we get 1M+ visitors in 30 days without anything!</h4>
-                        <p>Jan 14, 2020</p>
-                    </div>
+                    <OldPost title="How To Blow Through Capital At An Incredible Rate" date="Jan 14, 2020"/>
+                    <OldPost title="Design Studios That Everyone Should Know About? " date="Jan 14, 2020"/>
+                    <OldPost title="How did we get 1M+ visitors in 30 days without anything!" date="Jan 14, 2020"/>
                     <div className="recent-post-and-date-no-border">
                         <h4>Figma On Figma: How We Built Our Website Design System</h4>
                         <p>Jan 14, 2020</p>
@@ -98,30 +91,12 @@ const DetailedArticle = () => {
                 <div className="category">
                     <h3>Categories</h3>
                     <div className="small-underline"></div>
-                    <div className="category-flex">
-                        <h4>Technology  - </h4>
-                        <h4 className="grey-h4"> 20 Posts</h4>
-                    </div>
-                    <div className="category-flex">
-                        <h4>Freelancing  - </h4>
-                        <h4 className="grey-h4"> 7 Posts</h4>
-                    </div>
-                    <div className="category-flex">
-                        <h4>Writing  - </h4>
-                        <h4 className="grey-h4"> 16 Posts</h4>
-                    </div>
-                    <div className="category-flex">
-                        <h4>Marketing   - </h4>
-                        <h4 className="grey-h4"> 11 Posts</h4>
-                    </div>
-                    <div className="category-flex">
-                        <h4>Business  - </h4>
-                        <h4 className="grey-h4"> 35 Posts</h4>
-                    </div>
-                    <div className="category-flex">
-                        <h4>Education  - </h4>
-                        <h4 className="grey-h4"> 14 Posts</h4>
-                    </div>
+                    <CategoryPosts category="Technology  - " post=" 20 Posts" />
+                    <CategoryPosts category="Freelancing  - " post=" 7 Posts" />
+                    <CategoryPosts category="Writing  - " post=" 16 Posts" />
+                    <CategoryPosts category="Marketing   - " post=" 11 Posts" />
+                    <CategoryPosts category="Business  - " post=" 35 Posts" />
+                    <CategoryPosts category="Education  - " post=" 14 Posts" />
                 </div>
             </div>
         </div>

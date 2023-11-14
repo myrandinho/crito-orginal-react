@@ -1,0 +1,104 @@
+.section-article {
+    padding-top: 125px;
+    background-color: #F0EFE9;
+
+
+
+    .Article-and-news {
+
+        text-align: center;
+
+        @media (min-width: 1400px) {
+            text-align: start;
+        }
+
+        .text-h2-and-button {
+
+            .Topic-and-button {
+                display: block;
+
+                h2 {
+                    @media (min-width:1200px) {
+                        font-size: 45px;
+                    }
+                }
+
+                @media (min-width: 1400px) {
+
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .article-btn-position {
+
+                    display: flex;
+                    justify-content: center;
+
+                    .yellow-button {
+                        background-color: #ffffff;
+                        border: 1px solid #191919;
+
+                        &:hover {
+                            background-color: #191919;
+                            color: #ffffff;
+                        }
+
+                        @media (min-width: 1200px) {
+
+                            height: 55px;
+                            width: 220px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .crito-articles {
+
+            @media (min-width: 1400px) {
+                display: flex;
+                gap: 30px;
+            }
+
+            .article-and-info {
+
+                img {
+                    height: 120px;
+                    width: auto;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+
+                    @media (min-width:768px) {
+                        height: 220px;
+                        width: 420px;
+                    }
+                }
+
+                p {
+                    display: none;
+
+                    @media (min-width: 1400px) {
+
+                        display: block;
+                    }
+                }
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+
+        .small-circles {
+            display: none;
+
+            @media (min-width: 1400px) {
+
+                display: flex;
+                margin-top: 65px;
+                padding-bottom: 85px;
+            }
+        }
+    }
+}

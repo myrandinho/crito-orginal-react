@@ -1,7 +1,7 @@
 import React from 'react'
 import './PartnersSection.scss'
 
-const FeaturesSection = () => {
+const PartnersSection = () => {
   return (
     <section>
         <div className="section-2">
@@ -19,4 +19,4 @@ const FeaturesSection = () => {
   )
 }
 
-export default FeaturesSection
+export default PartnersSection

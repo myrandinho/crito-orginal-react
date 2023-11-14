@@ -64,6 +64,7 @@
 @media (min-width: 1200px) {
   .section-5 .our-services .service-boxes .business-subject h3 {
     font-size: 22px;
+    font-weight: bold;
   }
 }
 .section-5 .our-services .service-boxes .business-subject .small-line {

@@ -117,6 +117,9 @@
   border: none;
   outline: none;
   font-size: 14px;
+  height: 56px;
+  width: 420px;
+  border-radius: 25px;
 }
 .news-details .container .side-section .news-search-box i {
   font-size: 18px;
@@ -127,6 +130,7 @@
   border: 1px solid rgb(233, 232, 232);
   padding-top: 50px;
   padding-left: 40px;
+  width: 420px;
 }
 .news-details .container .side-section .recent-posts h3 {
   font-size: 22px;
@@ -143,7 +147,7 @@
   font-weight: bold;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-right: 100px;
+  padding-right: 50px;
 }
 .news-details .container .side-section .recent-posts .recent-post-and-date p {
   font-size: 14px;
@@ -157,7 +161,7 @@
   font-weight: bold;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-right: 100px;
+  padding-right: 50px;
 }
 .news-details .container .side-section .recent-posts .recent-post-and-date-no-border p {
   font-size: 14px;

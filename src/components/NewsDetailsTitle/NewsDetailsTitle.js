@@ -1,8 +1,8 @@
 import React from 'react'
-import './NewsTitleSection.scss'
+import './NewsDetailsTitle.scss'
 import PageTopic from '../generics/PageTopic/PageTopic'
 
-const NewsTitleSection = () => {
+const NewsDetailsTitle = () => {
   return (
     <section className="part-1">
     <div className="lets-connect container-fluid">
@@ -13,4 +13,4 @@ const NewsTitleSection = () => {
   )
 }
 
-export default NewsTitleSection
+export default NewsDetailsTitle

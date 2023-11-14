@@ -1,0 +1,24 @@
+.lets-connect-box {
+  text-align: center;
+}
+.lets-connect-box .p-topics {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.lets-connect-box .p-topics p {
+  font-weight: 300;
+}
+.lets-connect-box .p-topics .medium-p {
+  font-weight: bold;
+}
+.lets-connect-box h1 {
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+  font-size: 40px;
+}
+@media (min-width: 1200px) {
+  .lets-connect-box h1 {
+    font-size: 70px;
+  }
+}

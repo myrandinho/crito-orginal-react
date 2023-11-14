@@ -1,6 +1,7 @@
 import React from 'react'
 import ShowcaseSection from '../ShowcaseSection/ShowcaseSection'
-import FeaturesSection from '../PartnersSection/PartnersSection'
+import PartnersSection from '../PartnersSection/PartnersSection'
+import FeaturesSection from '../FeaturesSection/FeaturesSection'
 import AboutCompanySection from '../AboutCompanySection/AboutCompanySection'
 import OurServicesSection from '../OurServicesSection/OurServicesSection'
 import WhyChooseUsSection from '../WhyChooseUsSection/WhyChooseUsSection'
@@ -12,10 +13,12 @@ import NewArticleSection from '../NewArticleSection/NewArticleSection'
 
 
 
+
 const MainHome = () => {
   return (
     <div className="wrapper">
         <ShowcaseSection />
+        <PartnersSection />
         <FeaturesSection />
         <AboutCompanySection />
         <OurServicesSection />
