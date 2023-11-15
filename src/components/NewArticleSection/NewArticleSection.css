@@ -47,17 +47,30 @@
     gap: 30px;
   }
 }
-.section-10 .Article-and-news .crito-articles .article-and-info img {
+.section-10 .Article-and-news .crito-articles .article-and-info .photo-box {
+  height: 220px;
+  width: 420px;
+}
+.section-10 .Article-and-news .crito-articles .article-and-info .photo-box img {
   height: 120px;
   width: auto;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 @media (min-width: 768px) {
-  .section-10 .Article-and-news .crito-articles .article-and-info img {
+  .section-10 .Article-and-news .crito-articles .article-and-info .photo-box img {
     height: 220px;
     width: 420px;
   }
+}
+.section-10 .Article-and-news .crito-articles .article-and-info .photo-box .date-box {
+  height: 64px;
+  width: 56px;
+  background-color: #F9D783;
+  position: relative;
+  z-index: 2;
+  top: -225px;
+  left: 15px;
 }
 .section-10 .Article-and-news .crito-articles .article-and-info p {
   display: none;

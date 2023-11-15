@@ -5,8 +5,7 @@ import './PageNotFoundSection.scss'
 const PageNotFoundSection = () => {
   return (
     <div className="Not-found-img-position">
-        <img src="/images/pagenotfondIMG.jpg" alt="Crashed webpage"/>
-        
+        <img src="/images/pagenotfondIMG.jpg" alt="Crashed webpage" />
     </div>
   )
 }

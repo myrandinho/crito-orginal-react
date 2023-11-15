@@ -1,7 +1,6 @@
 import React from 'react'
 import ShowcaseSection from '../ShowcaseSection/ShowcaseSection'
 import PartnersSection from '../PartnersSection/PartnersSection'
-import FeaturesSection from '../FeaturesSection/FeaturesSection'
 import AboutCompanySection from '../AboutCompanySection/AboutCompanySection'
 import OurServicesSection from '../OurServicesSection/OurServicesSection'
 import WhyChooseUsSection from '../WhyChooseUsSection/WhyChooseUsSection'
@@ -10,6 +9,7 @@ import MembersSection from '../MembersSection/MembersSection'
 import ReviewSection from '../ReviewSection/ReviewSection'
 import RegisterSection from '../RegisterSection/RegisterSection'
 import NewArticleSection from '../NewArticleSection/NewArticleSection'
+import NewFeaturesSection from '../NewFeaturesSection/NewFeaturesSection'
 
 
 
@@ -19,7 +19,7 @@ const MainHome = () => {
     <div className="wrapper">
         <ShowcaseSection />
         <PartnersSection />
-        <FeaturesSection />
+        <NewFeaturesSection />
         <AboutCompanySection />
         <OurServicesSection />
         <WhyChooseUsSection />

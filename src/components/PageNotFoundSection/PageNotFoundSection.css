@@ -3,3 +3,7 @@
   justify-content: center;
   align-items: center;
 }
+.Not-found-img-position img {
+  height: 400px;
+  width: 600px;
+}
