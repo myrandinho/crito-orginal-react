@@ -16,28 +16,28 @@ const MembersSection = () => {
 
 
   return (
-    <section class="section-8">
-        <div class="meet-our-team container">
-            <div class="team-box">
-                <p class="red-text">Meet Our Team</p>
-                <div class="h2-and-btn">
+    <section className="section-8">
+        <div className="meet-our-team container">
+            <div className="team-box">
+                <p className="red-text">Meet Our Team</p>
+                <div className="h2-and-btn">
                     <h2>Experience Team Members</h2>
-                    <div class="btn-placement">
+                    <div className="btn-placement">
                         <Button url="index.html" title="Browse Team " />
                     </div>
                 </div>
-                <div class="team-members">
+                <div className="team-members">
                 {   MemberList.map(( myItem, index ) => (
                         <MyMember key={index} title={myItem.title} alt={myItem.alt} photo={myItem.photo} memberName={myItem.memberName} />
                 ))
                 }    
                 </div>
-                <div class="small-circles">
-                    <a class="small-circle" href="#"></a>
-                    <a class="small-circle" href="#"></a>
-                    <a class="small-circle" href="#"></a>
-                    <a class="small-circle" href="#"></a>
-                    <a class="small-circle" href="#"></a>
+                <div className="small-circles">
+                    <a className="small-circle" href="#"></a>
+                    <a className="small-circle" href="#"></a>
+                    <a className="small-circle" href="#"></a>
+                    <a className="small-circle" href="#"></a>
+                    <a className="small-circle" href="#"></a>
                 </div>
             </div>
         </div>

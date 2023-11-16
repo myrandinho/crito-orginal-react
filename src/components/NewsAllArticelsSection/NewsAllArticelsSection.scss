@@ -9,30 +9,7 @@
             grid-template-columns: auto auto auto;
             grid-template-rows: auto auto auto;
 
-            .article-and-info {
 
-                img {
-                    height: 120px;
-                    width: auto;
-                    margin-top: 20px;
-                    margin-bottom: 20px;
-
-                    @media (min-width:768px) {
-                        height: 220px;
-                        width: 420px;
-                    }
-                }
-
-                p {
-                    display: block;
-                    
-                }
-
-                a {
-                    text-decoration: none;
-                    color: black;
-                }
-            }
         }
 
         .my-pages {

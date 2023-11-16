@@ -21,7 +21,7 @@ const NewsAllArticelsSection = () => {
             
             {   
               articles.map(( myItem, index ) => (
-                <ArticleBox key={index} id={myItem.id} url={myItem.url} title={myItem.title} alt={myItem.alt} photo={myItem.imageUrl} topic={myItem.category} text={myItem.content} />
+                <ArticleBox key={index} date={myItem.published} id={myItem.id} url={myItem.url} title={myItem.title} alt={myItem.alt} photo={myItem.imageUrl} topic={myItem.category} text={myItem.content} />
               ))
             }     
         </div>

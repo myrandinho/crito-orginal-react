@@ -59,35 +59,6 @@
                 display: flex;
                 gap: 30px;
             }
-
-            .article-and-info {
-
-                img {
-                    height: 120px;
-                    width: auto;
-                    margin-top: 20px;
-                    margin-bottom: 20px;
-
-                    @media (min-width:768px) {
-                        height: 220px;
-                        width: 420px;
-                    }
-                }
-
-                p {
-                    display: none;
-
-                    @media (min-width: 1400px) {
-
-                        display: block;
-                    }
-                }
-
-                a {
-                    text-decoration: none;
-                    color: black;
-                }
-            }
         }
 
         .small-circles {

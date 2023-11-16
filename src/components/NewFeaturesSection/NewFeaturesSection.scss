@@ -7,7 +7,7 @@
 
         height: 600px;
         width: 1520px;
-        border: 1px solid black;
+        border: 1px solid rgb(182, 182, 182);
       
 
         .features-content {
@@ -32,6 +32,11 @@
                     background-color: #F9D783;
                     border: none;
                     margin-top: 40px;
+
+                    i {
+                        margin-left: 5px;
+                        font-size: 17px;
+                    }
 
                     &:hover {
 

@@ -17,18 +17,18 @@ const ProjectsSection = () => {
     ]
 
   return (
-    <section class="section-7">
-        <div class="Project-section container">
-            <div class="project-title">
+    <section className="section-7">
+        <div className="Project-section container">
+            <div className="project-title">
                 <MyTopic text="Project & Case Studies" title="Let's Looks our Global Projects" />
             </div>
-            <div class="project-and-case">
+            <div className="project-and-case">
             {   ProjectLinks.map(( myItem, index ) => (
                         <MyProject key={index} title={myItem.title} url={myItem.url} photo={myItem.photo} text={myItem.text} />
                 ))
                 }    
             </div>
-            <div class="projects-button">
+            <div className="projects-button">
                 <Button title="All Recent Projects " url="index.html" type="dark" />
             </div>
         </div>

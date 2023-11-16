@@ -13,11 +13,11 @@ const WhyChooseUsSection = () => {
     ]
 
   return (
-    <section class="section-6">
-        <div class="why-choose-us container"> 
-            <div class="why-choose-us-info">
-                <div class="why-choose-us-titles">
-                    <p class="red-text">Why Choose Us</p>
+    <section className="section-6">
+        <div className="why-choose-us container"> 
+            <div className="why-choose-us-info">
+                <div className="why-choose-us-titles">
+                    <p className="red-text">Why Choose Us</p>
                     <h2>Why We Are The <br></br> Best Business <br></br>Consulting Agency</h2>
                 </div>
                 {   myObjects.map(( myItem, index ) => (
@@ -25,12 +25,12 @@ const WhyChooseUsSection = () => {
                 ))
                 }    
             </div>
-            <div class="picture-on-box">
+            <div className="picture-on-box">
                 <img src="images/two-persons.png" alt="Woman talking to other woman while holding a notepad" />
             </div>
         </div>
-        <div class="beige-box-position container-fluid">
-            <div class="beige-box"></div>
+        <div className="beige-box-position container-fluid">
+            <div className="beige-box"></div>
         </div>
     </section>
   )

@@ -35,7 +35,7 @@ const ArticleSectionNewsDetails = () => {
             </div>
             <div className="crito-articles">
             {   article.map(( myItem, index ) => (
-                        <ArticleBox key={index} url={myItem.url} title={myItem.title} alt={myItem.alt} photo={myItem.imageUrl} topic={myItem.category} text={myItem.content} />
+                        <ArticleBox key={index} date={myItem.published} url={myItem.url} title={myItem.title} alt={myItem.alt} photo={myItem.imageUrl} topic={myItem.category} text={myItem.content} />
                 ))
                 }     
             </div>

@@ -8,25 +8,6 @@
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
 }
-.news-section .crito-articles .article-and-info img {
-  height: 120px;
-  width: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-@media (min-width: 768px) {
-  .news-section .crito-articles .article-and-info img {
-    height: 220px;
-    width: 420px;
-  }
-}
-.news-section .crito-articles .article-and-info p {
-  display: block;
-}
-.news-section .crito-articles .article-and-info a {
-  text-decoration: none;
-  color: black;
-}
 .news-section .my-pages {
   display: flex;
   justify-content: center;

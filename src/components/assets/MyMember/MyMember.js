@@ -2,9 +2,9 @@ import React from 'react'
 
 const MyMember = ({photo, alt, memberName, title}) => {
   return (
-    <div class="member">
+    <div className="member">
         <img src={photo} alt={alt} />                       
-        <h3 class="h3-text">{memberName}</h3>
+        <h3 className="h3-text">{memberName}</h3>
         <p>{title}</p>
     </div>
   )

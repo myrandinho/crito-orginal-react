@@ -19,7 +19,7 @@ const NewFeaturesSection = () => {
             <div className="features-content container">
                 <div className="left-side">
                     <MyTopic text="Features" title="Our Accounting is trusted by thousand of companies"/>
-                    <button className="long-yellow-button">Learn More</button>
+                    <button className="long-yellow-button">Learn More <i className="fa-solid fa-arrow-up-right"></i></button>
                 </div>
                 <div className="right-side">
                 {   FeatureList.map(( myItem, index ) => (
