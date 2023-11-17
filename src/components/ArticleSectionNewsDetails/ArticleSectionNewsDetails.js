@@ -3,6 +3,8 @@ import './ArticleSectionNewsDetails.scss'
 import Button from '../generics/Button/Button'
 import ArticleBox from '../assets/ArticleBox/ArticleBox'
 import React, {useEffect, useState} from 'react'
+import { Link } from 'react-router-dom'
+
 
 
 const ArticleSectionNewsDetails = () => {
@@ -35,16 +37,16 @@ const ArticleSectionNewsDetails = () => {
             </div>
             <div className="crito-articles">
             {   article.map(( myItem, index ) => (
-                        <ArticleBox key={index} date={myItem.published} url={myItem.url} title={myItem.title} alt={myItem.alt} photo={myItem.imageUrl} topic={myItem.category} text={myItem.content} />
+                        <ArticleBox key={index} id={myItem.id} date={myItem.published} url={myItem.url} title={myItem.title} alt={myItem.alt} photo={myItem.imageUrl} topic={myItem.category} text={myItem.content} />
                 ))
                 }     
             </div>
             <div className="small-circles">
-                <a className="small-circle" href="#"></a>
-                <a className="small-circle" href="#"></a>
-                <a className="small-circle" href="#"></a>
-                <a className="small-circle" href="#"></a>
-                <a className="small-circle" href="#"></a>
+                <Link to="*" className="small-circle"></Link>
+                <Link to="*" className="small-circle"></Link>
+                <Link to="*" className="small-circle"></Link>
+                <Link to="*" className="small-circle"></Link>
+                <Link to="*" className="small-circle"></Link>
             </div>
         </div>
     </section>

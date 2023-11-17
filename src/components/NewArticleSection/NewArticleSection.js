@@ -3,9 +3,10 @@ import './NewArticleSection.scss'
 import Button from '../generics/Button/Button'
 import ArticleBox from '../assets/ArticleBox/ArticleBox'
 import React, {useEffect, useState} from 'react'
+import { Link } from 'react-router-dom'
 
 
-const ArticleSection = () => {
+const NewArticleSection = () => {
 
     const [article, setArticles] = useState([])
 
@@ -40,15 +41,15 @@ const ArticleSection = () => {
                 }     
             </div>
             <div class="small-circles">
-                <a class="small-circle" href="#"></a>
-                <a class="small-circle" href="#"></a>
-                <a class="small-circle" href="#"></a>
-                <a class="small-circle" href="#"></a>
-                <a class="small-circle" href="#"></a>
+                <Link to="*" className="small-circle"></Link>
+                <Link to="*" className="small-circle"></Link>
+                <Link to="*" className="small-circle"></Link>
+                <Link to="*" className="small-circle"></Link>
+                <Link to="*" className="small-circle"></Link>
             </div>
         </div>
     </section>
   )
 }
 
-export default ArticleSection
+export default NewArticleSection

@@ -108,7 +108,7 @@
   border: none;
   border-radius: 25px;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   margin-bottom: 40px;
 }

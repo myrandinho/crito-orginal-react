@@ -101,11 +101,10 @@
                     i {
                         margin-left: 5px;
                     }
-
                     &:hover {
                         background-color: #191919;
                         color: #ffffff;
-                        cursor: pointer;
+                        
                     }
                 }
             }
@@ -113,7 +112,7 @@
             .error-message  {
                 display: flex;
                 justify-content: center;
-                align-items: start;
+                align-items: flex-start;
                 flex-direction: column;
                 position: absolute;
                 bottom: 20px;

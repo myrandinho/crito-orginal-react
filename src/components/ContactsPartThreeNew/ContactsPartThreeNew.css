@@ -96,12 +96,11 @@
 .part-3 .leave-message-form #registerform .form-block .yellow-button:hover {
   background-color: #191919;
   color: #ffffff;
-  cursor: pointer;
 }
 .part-3 .leave-message-form #registerform .error-message {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
   flex-direction: column;
   position: absolute;
   bottom: 20px;
